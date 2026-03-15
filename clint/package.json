@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n \"client,server\" -c \"cyan,magenta\" \"vite\" \"node server/index.js\"",
     "built": "concurrently \"npm run dev\" \"cd server && npm run dev\"",
     "dev:client": "vite",
     "dev:server": "node server/index.js",
